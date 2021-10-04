@@ -1,0 +1,11 @@
+img{
+    width: 300px;
+    border-radius: 20px;
+}
+.circle{
+    height: 25px;
+    width: 25px;
+    background-color: red;
+    border-radius: 100%;
+    display: inline-block;
+}
