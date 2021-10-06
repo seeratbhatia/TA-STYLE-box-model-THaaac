@@ -1,0 +1,85 @@
+body{
+    line-height: 1.5;
+    font-size: 16px;
+    color: white;
+}
+.container{
+    width: 1100px;
+    margin: 0 auto;
+}
+header{
+    background-color: #2E313F
+;
+    text-align: center;
+    padding: 32px 0;
+}
+h1{font-size: 36px;
+    margin-bottom: 16px;
+}
+header a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;}
+.hero{
+    background-color: #2E313F
+;
+    padding: 120px 0;
+}
+.hero-heading{
+    font-size: 32px;
+    text-transform: uppercase;}
+hr{
+    margin: 32px auto;
+    border: 0;
+    border-bottom: 2px solid #999;
+}
+.hero-text{
+    text-transform: uppercase;
+    color: #ccc;
+    font-size: 20px;
+}
+img{
+    width: 260px;
+    height: 260px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.blog{
+    background-color: #4C5C96
+;
+    padding: 60px 0;
+}
+.heading{
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+}
+.article.txt{
+    color: #ccc;
+    font-size: 20px;
+    margin-bottom: 24px;}
+.article-link{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+    text-decoration: none;
+}
+.blog2{
+    background-color: #45548D
+;
+}
+.blog3{
+    background-color: #3F4E85
+;
+}
+.footer{
+    background-color: #2E313F
+;
+    padding: 60px 0;
+    font-size: 20px;
+    color: #ccc;
+}
+
+
+Send a message to Shivender Kumar
