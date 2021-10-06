@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Exercise Two</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>The Box Model,Box-Sizing & Box-Shadow</header>
+        <hr>
+        <main>
+            <section>
+                <h2>Exercise 1</h2>
+                <div class="box"></div>
+                <div class="marker-contained">
+                    <div class="marker">
+                        <span class="circle content"></span>
+                        <span>Content</span>
+                    </div>
+                    <div class="marker">
+                        <span class="circle padding"></span>
+                        <span>Padding</span>
+                    </div>
+                    <div class="marker">
+                        <span class="circle border"></span>
+                        <span>Border</span>
+                    </div>
+                    <div class="marker">
+                         <span class="circle margin"></span>
+                         <span>Margin</span>
+                    </div>
+                </div>
+            </section>
+            <hr>
+            <section>
+                <h2>Exercise 2</h2>
+                <p>no border on these boxes</p>
+                <div class="container">
+                    <div class="child-box"></div>
+                    <div class="child-box"></div>
+                    <div class="child-box"></div>
+                </div>
+                <hr>
+                <p>1px border on these boxes</p>
+                <div class="container">
+                    <div class="child-box border"></div>
+                    <div class="child-box border"></div>
+                    <div class="child-box border"></div>
+                </div>
+                <hr>
+                <p>1px border on these boxes but they are on same line</p>
+                <div class="container">
+                    <div class="child-box border border-box"></div>
+                    <div class="child-box border border-box"></div>
+                    <div class="child-box border border-box"></div>
+                </div>
+            </section>
+        </main>
+    </body>
+</html>
